@@ -7,7 +7,10 @@ const userSchema = mongoose.Schema({
 },{versionKey: false});
 
 
-const userModel = mongoose.model("newuserlists", userSchema);
+
+    const userModel = mongoose.model("newuserlists", userSchema);
+
+
 
 
 module.exports = { userModel }

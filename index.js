@@ -30,3 +30,11 @@ app.listen(process.env.port, async ()=>{
     }
 })
 
+
+// [22:25, 4/29/2023] Aniket (masai Classmate) Lko Pandey: app.listen(port, async() =>{
+
+//     await mongoose.connect(url)
+    
+//     }
+//     [22:26, 4/29/2023] Aniket (masai Classmate) Lko Pandey: Direct index.js me l
+

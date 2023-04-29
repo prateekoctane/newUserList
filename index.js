@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const { connection } = require("./config/db");
+const { connect } = require("./config/db");
 require("dotenv").config();
 const { userRouter } = require("./routes/users.routes");
 const cors = require("cors")
@@ -23,7 +23,7 @@ app.get("/", async(req,res) => {
 app.listen(process.env.port, async ()=>{
 
     try{
-        await connection;
+        connect();
         console.log("connected to database")
     }catch(err){
         console.log("cannot connect to database");

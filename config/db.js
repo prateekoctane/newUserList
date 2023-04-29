@@ -1,8 +1,11 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
 
+async function connect(){
 
-const connection = mongoose.connect(process.env.mongoURL);
+    await mongoose.connect(process.env.mongoURL);
+}
 
 
-module.exports = { connection }
+
+module.exports = { connect }

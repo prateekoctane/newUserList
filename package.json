@@ -1,0 +1,28 @@
+{
+  "name": "newuserlist",
+  "version": "1.0.0",
+  "description": "this is backend for practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prateekoctane/newUserList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prateekoctane/newUserList/issues"
+  },
+  "homepage": "https://github.com/prateekoctane/newUserList#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
